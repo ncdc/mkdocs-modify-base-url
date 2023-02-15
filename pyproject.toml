@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkdocs-modify-base-url"
+version = "0.0.1"
+authors = [
+    { name="Andy Goldstein", email="andy.goldstein@gmail.com" },
+]
+description = "mkdocs plugin to control the base_url, for use with mike (for multiple versions) and i18n."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    'mkdocs>=1',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ncdc/mkdocs-modify-base-url"
+"Bug Tracker" = "https://github.com/ncdc/mkdocs-modify-base-url/issues"
+
+[project.entry-points."mkdocs.plugins"]
+modify-base-url = "mkdocs_modify_base_url.plugin:ModifyBaseURLPlugin"
