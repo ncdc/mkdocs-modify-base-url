@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mkdocs-modify-base-url"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     { name="Andy Goldstein", email="andy.goldstein@gmail.com" },
 ]
