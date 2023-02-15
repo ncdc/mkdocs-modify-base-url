@@ -2,7 +2,7 @@
 
 This mkdocs plugin is meant to be used with:
 
-- [mkdocs-material](https://squidfunk.github.io/mkdocs-material/
+- [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 - [mike](https://github.com/jimporter/mike) for multiple versions of your documentation
 - [multi-language documentation](https://github.com/squidfunk/mkdocs-material/discussions/2346)
 
